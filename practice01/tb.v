@@ -1,4 +1,3 @@
-
 module tb;
    
        reg        DoorClose      ;

@@ -77,7 +77,7 @@ nco      u_nco( .clk_gen ( clk_gen ),
                 .rst_n   ( rst_n   ));
                 
 cnt6    u_cnt6( .out     ( out     ),
-                .clk     ( clk_1hz ),
+                .clk     ( clk_gen ),
                 .rst_n   ( rst_n   ));
                 
 endmodule

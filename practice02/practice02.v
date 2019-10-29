@@ -34,7 +34,7 @@ input    ci     ;
 reg      s      ;
 reg      co     ;
 
-always @(a,b,ci) begin
+always @(ci,a,b) begin
        s      =   ~a&b&~ci|a&~b&~ci|~a&~b&ci|a&b&ci ; 
        co     =   a&b&~ci|~a&b&ci|a&~b&ci|a&b&ci    ;
 end
@@ -58,7 +58,7 @@ input    ci     ;
 reg      s      ;
 reg      co     ;
 
-always @(a,b,ci) begin
+always @(ci,a,b) begin
        case( {ci, a, b} )
             3'b000 : {co, s} = 2'b00    ;
             3'b001 : {co, s} = 2'b01    ;
@@ -67,4 +67,7 @@ always @(a,b,ci) begin
             3'b100 : {co, s} = 2'b01    ;
             3'b101 : {co, s} = 2'b10    ;
             3'b110 : {co, s} = 2'b10    ;                                    
-            3'b111 : {co, s} = 2'b11    ;                                    
+            3'b111 : {co, s} = 2'b11    ;     
+       endcase 
+end
+endmodule                              

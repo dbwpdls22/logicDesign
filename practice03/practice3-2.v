@@ -1,3 +1,18 @@
+
+module mux2to1_cond(   out,
+                       in0,
+                       in1, 
+                       sel);
+                       
+output          out            ;
+input           in0            ; 
+input           in1            ; 
+input           sel            ;
+
+assign out = (sel)? in1 : in0  ;
+
+endmodule
+
 module mux4to1_2to1(  out,
                       in,
                       sel);
@@ -24,15 +39,7 @@ mux2to1_cond u2(   .out(   out  ),
                    .sel( sel[1] ));
 
 endmodule
-                       
-output          out            ;
-input           in0            ; 
-input           in1            ; 
-input           sel            ;
-
-assign out = (sel)? in1 : in0  ;
-
-endmodule
+                      
 
 
 module mux4to1_if  (   out,

@@ -1,4 +1,3 @@
-
 module dec3to8_shift(    out  ,
                          in   ,
                          en   );
@@ -21,9 +20,9 @@ output  [7:0]    out           ;
 input   [2:0]    in            ;
 input            en            ;
 
-reg              out           ;
+reg     [7:0]    out           ;
 
-always @ (en or in)begin
+always@(*)begin
       if (en == 1'b1) begin
           case(in)
                3'b000 : out = 8'b0000_0001;

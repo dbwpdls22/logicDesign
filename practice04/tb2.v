@@ -14,7 +14,7 @@ always  #(100) clk = ~clk    ;
 d_latch          dut0( .q    (   q_latch    ),
                        .d    (   d          ),
                        .clk  (   clk        ), 
-                       .rst_n(   r st_n     ));
+                       .rst_n(   rst_n     ));
                     
 dff_asyn         dut1( .q    (  q_diff_asyn ),
                        .d    (    d         ),

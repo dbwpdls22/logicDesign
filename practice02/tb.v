@@ -37,9 +37,9 @@ initial begin
     $display("Dataflow level:   s1, co1");
     $display("Behavioral level: s2, co2");
     $display("Using 'case':     s3, co3");
-    $display("=========================================");
+    $display("==============================================================");
     $display("  ci  a  b  s1  co1  s2  co2  s3  co3  ");
-    $display("=========================================");
+    $display("==============================================================");
     #(50)   {ci, a, b} = 3'b_000;  #(50)   $display("  %b\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b", ci, a, b, s1, co1, s2, co2, s3, co3);
     #(50)   {ci, a, b} = 3'b_001;  #(50)   $display("  %b\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b", ci, a, b, s1, co1, s2, co2, s3, co3);
     #(50)   {ci, a, b} = 3'b_010;  #(50)   $display("  %b\t%b\t%b\t%b\t%b\t%b\t%b\t%b\t%b", ci, a, b, s1, co1, s2, co2, s3, co3);

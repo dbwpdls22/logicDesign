@@ -40,5 +40,8 @@ initial begin
         #(50)   {ci, a, b} = $random(); #(50)   $display(" %d\t%d\t%d\t%d\t%d\t%d\t%d", ci, a, b, s1, co1, s2, co2);
         #(50)   {ci, a, b} = $random(); #(50)   $display(" %d\t%d\t%d\t%d\t%d\t%d\t%d", ci, a, b, s1, co1, s2, co2);
         #(50)   {ci, a, b} = $random(); #(50)   $display(" %d\t%d\t%d\t%d\t%d\t%d\t%d", ci, a, b, s1, co1, s2, co2);
-        
+        #(50)   $finish;
+end
+
+endmodule
         
