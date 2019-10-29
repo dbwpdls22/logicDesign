@@ -10,7 +10,7 @@
 ## 결과
  ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
  
-
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice06/%EC%BA%A1%EC%B2%98.PNG)
 
 
 <!--stackedit_data:
