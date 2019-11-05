@@ -29,9 +29,9 @@ assign six_digit_seg = { {4{7'b1110111}}, seg_left, seg_right };
 ## 결과
  ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
  
-
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice06/%EC%BA%A1%EC%B2%98.PNG)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjI4MDRdfQ==
+eyJoaXN0b3J5IjpbMTQ0MjQ2MzI0OCwtOTIyMjgwNF19
 -->
