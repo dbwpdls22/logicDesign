@@ -18,10 +18,18 @@
 
 ![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_2.png)
 
+state가 00,11,01로 변화하는 것 확인
+
 ![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_3.png)
+
+0의 유지 시간을 통해 0과 1을 구분 
 
 ### FPGA 실습 : 리모컨의 버튼에 따라 6개의 LED가 변화함 
 
 ![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_4.png)
 
+숫자와 알파벳이 출력된 것을 확인
+
 ![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_5.png)
+
+리모컨의 버튼에 따라 출력값이 변화
