@@ -14,4 +14,14 @@
 
 #### **top module**:  위의 module를 이용하여 실습 장비의 LED에 맞는 Display Module 설계
 
+### Quartus 실습 : test bench를 이용하여 module의 웨이프 확인
+
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_2.png)
+
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_3.png)
+
 ### FPGA 실습 : 리모컨의 버튼에 따라 6개의 LED가 변화함 
+
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_4.png)
+
+![](https://github.com/dbwpdls22/logicDesign/blob/master/practice09/09_5.png)
